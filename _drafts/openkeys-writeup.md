@@ -3,12 +3,12 @@ layout: post
 title:  "HackTheBox OpenKeyS Writeup"
 tags: hackthebox openbsd authentication-bypass
 categories: hackthebox active-machine
-rel-img: /assets/img/htb/openkeys/OpenKeyS.png
+rel-img: /assets/img/htb/openkeys/openkeys.png
 description: Exploit OpenBSD vulnerabilities to conquer the machine!!
 ---
 
 ### Hackthebox OpenKeyS Writeup
-![OpenKeyS](/assets/img/htb/openkeys/OpenKeyS.png)
+![OpenKeyS](/assets/img/htb/openkeys/openkeys.png)
 
 ## Abstract
 
