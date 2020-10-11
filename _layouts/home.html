@@ -58,7 +58,9 @@ layout: page
     </div>
     <div class="post-content">
       {% if post.rel-img %}
-      <img src="{{ post.rel-img }}" alt="">
+      <a href="{{ post.url | relative_url}}">
+       <img src="{{ post.rel-img }}">
+      </a>
       {% endif %}      
       <p>
        {% if post.description %}
