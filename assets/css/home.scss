@@ -8,6 +8,15 @@
 
 {% include_relative _addon/main.scss %}
 
+#img-slink img{
+   text-decoration: none !important;
+   border:0px !important;
+   outline:none;
+   border-width: 0px;
+   outline-width:0px;
+   border-bottom: none;
+}
+
 #post-list {
   margin-top: 1rem;
   padding-right: .5rem;
