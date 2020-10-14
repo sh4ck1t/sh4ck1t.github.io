@@ -11,7 +11,7 @@ title: About
 > ```
 > sh4ck1t@blog:~$ whoami 
 > 
-> cyber security passionate and curios
+> cyber security passionate and curious
 >
 > ctf player
 >
