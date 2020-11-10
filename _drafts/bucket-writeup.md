@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "HackTheBox Jewel Writeup" 
-tags: hackthebox ruby-on-rails deserialization-attackgoogle-authenticator gem 
+title:  "HackTheBox Bucket Writeup" 
+tags: hackthebox s3-bucket dynamoDB
 categories: hackthebox active-machine 
-rel-img: /assets/img/htb/jewel/jewel.png
-description: Exploiting ruby on rails vulnerability to gain first access, escalating priviledge using google authenticator and take advantage to sudo and gem to conquer the machine!!
+rel-img: /assets/img/htb/bucket/bucket.png
+description: Fantastic journey through s3 bucket and DynamoDB!!
 ---
 
-### Hackthebox Jewel Writeup
-![Jewel](/assets/img/htb/jewel/jewel.png)
+### Hackthebox Bucket Writeup
+![Bucket](/assets/img/htb/bucket/bucket.png)
 
 ## Abstract
 
-Expoit OpenBSD vulnerabilities to conquer the machine!!
+Fantastic journey through s3 bucket and DynamoDB
 
 ## Summary
 1. Initial foothold
