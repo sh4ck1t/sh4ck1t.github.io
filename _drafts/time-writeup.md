@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "HackTheBox Jewel Writeup" 
-tags: hackthebox ruby-on-rails deserialization-attackgoogle-authenticator gem 
+title:  "HackTheBox Time Writeup" 
+tags: hackthebox
 categories: hackthebox active-machine 
-rel-img: /assets/img/htb/jewel/jewel.png
+rel-img: /assets/img/htb/time/time.png
 description: Exploiting ruby on rails vulnerability to gain first access, escalating priviledge using google authenticator and take advantage to sudo and gem to conquer the machine!!
 ---
 
-### Hackthebox Jewel Writeup
-![Jewel](/assets/img/htb/jewel/jewel.png)
+### Hackthebox TIme Writeup
+![Jewel](/assets/img/htb/time/time.png)
 
 ## Abstract
 
