@@ -51,7 +51,7 @@ create_category() {
     if [[ ! -f $_filepath ]]; then
       echo "---" > $_filepath
       echo "layout: category" >> $_filepath
-      echo "title: $_name" >> $_filepath
+      echo "title: `echo $_name | sed 's/-/ /g'`" >> $_filepath
       echo "category: $_name" >> $_filepath
       echo "---" >> $_filepath
 
@@ -70,7 +70,7 @@ create_tag() {
 
       echo "---" > $_filepath
       echo "layout: tag" >> $_filepath
-      echo "title: $_name" >> $_filepath
+      echo "title: `echo $_name | sed 's/-/ /g' | awk '{print toupper($0)}'`" >> $_filepath
       echo "tag: $_name" >> $_filepath
       echo "---" >> $_filepath
 
